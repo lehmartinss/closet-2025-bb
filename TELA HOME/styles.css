@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgba(204, 201, 201, 0.8);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: #d8d3d3;
+    padding: 20px;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;  
+}   
+
+.welcome-section .logo img {
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: "Mogra";
+}
+
+.card-acoes {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.card-acoes-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 165px;
+    text-align: center;
+}
+
+.card-acoes p{
+    padding: 5px;
+    text-align:center;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: martel-light;
+}
+
+.card-acoes img {
+    align-items: center;
+    width: 40px;
+}
+
+.community h3 {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px; 
+    font-family: martel-light;
+    
+}
+
+.underline{
+    width:25%; 
+    height: 1px;
+    background-color: black;
+    margin-left: 15px; 
+
+}
+
+.community-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+}
+
+.user-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    width: 290px;
+    text-align: center;
+}
+
+.publi-user {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.user-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-family: martel-light;
+}
+
+.images img {
+    width: 40px;
+    margin: 30px;
+}
+

@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(187, 77, 77, 1);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundo_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+    padding: 35px 35px 35px 35px; 
+    width: 500px;
+    height: 480px;
+    text-align: center;
+    border-radius: 60px; 
+}
+
+.fundo_card img {
+    height: 110px;
+    width: 110px;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}  
+
+.from-contant{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.from-contant input{
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 8px;
+    padding-left: 20px; 
+    background-color: #CCC9C9;
+    border: none;
+    width: 25vw;
+    font-family: martel-light;
+}
+
+button{
+    width: 150px;
+    font-size: 15px;
+    background-color: #BB4D4D;
+    color: #F5F5F5;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin-top: 10px;
+    font-family: martel-light;
+}
+h1{
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    font-family: martel-light;
+    font-style: normal;
+    font-weight: inherit;
+}
+
+button:hover{
+    background-color: brown;
+} 
+
+.footer{
+    color: black;
+}
