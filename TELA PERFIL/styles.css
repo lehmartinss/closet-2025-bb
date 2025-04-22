@@ -7,6 +7,7 @@ body {
   .perfil {
     background-color: #b34848;
     color: #000;
+    height: 35vh;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -24,35 +25,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    position: absolute;
+    top: 5px;
+    left: 22%;
+    padding: 15px;
+   
   }
   
   .perfil-info {
     background-color: #f1f1f1;
     padding: 15px 300px;
     border-radius: 25px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
 
   }
   
   .perfil-stats {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 10px;
-    gap: 20px;
+    gap: 60px;
     font-size: 14px;
     text-align: center;
   }
 
-  .perfil-stats h3{
-    text-align: center;
-  }
 
-  .perfil-stats p{
-    text-align: center;
-  }
-
-
-  
   .content {
     background-color: #d3cece;
     padding: 20px;
@@ -63,7 +62,7 @@ body {
   }
   
   .search-bar input {
-    width: 100%;
+    width: 45%;
     padding: 10px;
     border-radius: 25px;
     border: none;
@@ -73,9 +72,10 @@ body {
   .icons {
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 25px;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+
   }
   
   .gallery {
