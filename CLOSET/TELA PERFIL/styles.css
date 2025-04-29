@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+  }
+  
+  .perfil {
+    background-color: #b34848;
+    color: #000;
+    height: 35vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 8px solid #b34848;
+  }
+  
+  .perfil-circle {
+    background-color: #e5dcdc;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    left: 22%;
+    padding: 15px;
+   
+  }
+  
+  .perfil-info {
+    background-color: #f1f1f1;
+    padding: 15px 300px;
+    border-radius: 25px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  
+  .perfil-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 60px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+  .content {
+    background-color: #d3cece;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 15px;
+  }
+  
+  .search-bar input {
+    width: 45%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 24px;
+    margin-bottom: 5px;
+
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .item {
+    background-color: #f0eeee;
+    border-radius: 20px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
